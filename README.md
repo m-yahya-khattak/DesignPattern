@@ -1,18 +1,3 @@
----
-layout: pattern
-title: Factory
-folder: factory
-permalink: /patterns/factory/
-categories: Creational
-tags:
- - Gang of Four
----
-
-## Also known as
-
-* Simple Factory
-* Static Factory Method
-
 ## Intent
 
 Providing a static method encapsulated in a class called factory, in order to hide the 
@@ -136,8 +121,3 @@ Cons
 * [java.util.EnumSet#of()](https://docs.oracle.com/javase/8/docs/api/java/util/EnumSet.html#of(E))
 * [javax.xml.bind.JAXBContext#createMarshaller()](https://docs.oracle.com/javase/8/docs/api/javax/xml/bind/JAXBContext.html#createMarshaller--) and other similar methods.
 
-## Related patterns
-
-* [Factory Method](https://java-design-patterns.com/patterns/factory-method/)
-* [Factory Kit](https://java-design-patterns.com/patterns/factory-kit/)
-* [Abstract Factory](https://java-design-patterns.com/patterns/abstract-factory/)
